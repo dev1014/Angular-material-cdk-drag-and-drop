@@ -1,0 +1,42 @@
+.todo {
+  .drag-list {
+      padding: 10px;
+      padding-left: 50px;
+      min-height: 100px;
+      height: 300px;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      background-color: silver;
+    .drag-item {
+        border-radius: 10px;
+        border: 1px solid black;
+        width: 150px;
+        height: 150px;
+        margin: 5px;
+        padding: 5px;
+    }
+  }
+}
+
+.done {
+  .drag-list {
+    padding: 10px;
+    width: 100%;
+    min-height: 100px;
+    height: 250px;
+    background-color: silver;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    .drag-item {
+        display: inline-block;
+        border-radius: 10px;
+        border: 1px solid black;
+        margin: 5px;
+        margin-top: 20px;
+        padding: 5px;
+        width: 200px;
+    }
+  }
+}
